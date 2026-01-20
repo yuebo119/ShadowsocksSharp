@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShadowsocksSharp.Core\ShadowsocksSharp.Core.csproj" />
+    <ProjectReference Include="..\ShadowsocksSharp.Diagnostics\ShadowsocksSharp.Diagnostics.csproj" />
+    <ProjectReference Include="..\ShadowsocksSharp.Inbound\ShadowsocksSharp.Inbound.csproj" />
+    <ProjectReference Include="..\ShadowsocksSharp.Outbound\ShadowsocksSharp.Outbound.csproj" />
+    <ProjectReference Include="..\ShadowsocksSharp.Shadowsocks\ShadowsocksSharp.Shadowsocks.csproj" />
+    <ProjectReference Include="..\ShadowsocksSharp.Transport\ShadowsocksSharp.Transport.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.25.3" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.0-preview.2.25163.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Pac\\abp.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Pac\\user-rule.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Geosite\\dlc.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShadowsocksSharp.Core\ShadowsocksSharp.Core.csproj" />
+    <ProjectReference Include="..\ShadowsocksSharp.Diagnostics\ShadowsocksSharp.Diagnostics.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <LangVersion>13.0</LangVersion>
+    <NoWarn>$(NoWarn);CA2022</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="[6.*,)">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\ShadowsocksSharp.Core\ShadowsocksSharp.Core.csproj" />
+    <ProjectReference Include="..\src\ShadowsocksSharp.Outbound\ShadowsocksSharp.Outbound.csproj" />
+    <ProjectReference Include="..\src\ShadowsocksSharp.Services\ShadowsocksSharp.Services.csproj" />
+    <ProjectReference Include="..\src\ShadowsocksSharp.Shadowsocks\ShadowsocksSharp.Shadowsocks.csproj" />
+    <ProjectReference Include="..\src\ShadowsocksSharp.Transport\ShadowsocksSharp.Transport.csproj" />
+    <ProjectReference Include="..\tools\Sip003UdpPlugin\Sip003UdpPlugin.csproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+</Project>

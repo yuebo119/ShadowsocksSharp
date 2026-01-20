@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ShadowsocksSharp": {
+      "commandName": "Project",
+      "commandLineArgs": " -v"
+    }
+  }
+}

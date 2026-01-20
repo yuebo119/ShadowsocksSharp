@@ -1,0 +1,34 @@
+{
+  "Configs": [
+    {
+      "Server": "0.0.0.0",
+      "ServerPort": 8388,
+      "Password": "123456",
+      "Method": "chacha20-ietf-poly1305",
+      "LocalPort": 1080,
+      "Timeout": 300,
+      "Enable": true,
+      "Remarks": "默认服务器",
+      "SocketSendBuffer": 16384,
+      "SocketReceiveBuffer": 16384,
+      "ConnectionPoolSize": 200,
+      "WarmPoolSize": 0,
+      "FirstPacketTimeoutSeconds": 30,
+      "RelayMinBufferSize": 8192,
+      "RelayMaxBufferSize": 65536,
+      "MaxConnectionsPerSecond": 0
+    }
+  ],
+  "Index": 0,
+  "Global": true,
+  "Enabled": true,
+  "LocalPort": 1080,
+  "TcpListenBacklog": 1024,
+  "AutoSetSystemProxy": true,
+  "BypassLocal": true,
+  "ProxyBypass": "localhost;127.*;10.*;172.16.*;172.17.*;172.18.*;172.19.*;172.20.*;172.21.*;172.22.*;172.23.*;172.24.*;172.25.*;172.26.*;172.27.*;172.28.*;172.29.*;172.30.*;172.31.*;192.168.*",
+  "EnablePerformanceMetrics": false,
+  "MetricsIntervalSeconds": 60,
+  "UdpSessionTimeoutSeconds": 300,
+  "MaxUdpSessions": 1024
+}

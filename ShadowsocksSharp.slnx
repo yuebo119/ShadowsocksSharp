@@ -1,0 +1,12 @@
+<Solution>
+  <Project Path="src/ShadowsocksSharp.App/ShadowsocksSharp.App.csproj" />
+  <Project Path="src/ShadowsocksSharp.Core/ShadowsocksSharp.Core.csproj" />
+  <Project Path="src/ShadowsocksSharp.Tests/ShadowsocksSharp.Tests.csproj" />
+  <Project Path="src/ShadowsocksSharp.Transport/ShadowsocksSharp.Transport.csproj" />
+  <Project Path="src/ShadowsocksSharp.Inbound/ShadowsocksSharp.Inbound.csproj" />
+  <Project Path="src/ShadowsocksSharp.Outbound/ShadowsocksSharp.Outbound.csproj" />
+  <Project Path="src/ShadowsocksSharp.Shadowsocks/ShadowsocksSharp.Shadowsocks.csproj" />
+  <Project Path="src/ShadowsocksSharp.Services/ShadowsocksSharp.Services.csproj" />
+  <Project Path="src/ShadowsocksSharp.Diagnostics/ShadowsocksSharp.Diagnostics.csproj" />
+  <Project Path="tools/Sip003UdpPlugin/Sip003UdpPlugin.csproj" />
+</Solution>
